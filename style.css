@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "gilroy";
+    scroll-behavior: smooth;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    ::selection{
+        color: #f7f7f7;
+        background-color: #111;
+    }
+}
+#main{
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #f7f7f7f7;
+}
+
+.nav{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navleft{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    
+}
+.navleft a {
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+}
+.navmiddle{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navmiddle a {
+    text-decoration: none;
+    color: #111;
+    font-size: 17px;
+    display: inline-block;
+}
+.navright{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navright a {
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
+    display: inline-block;
+}
+
+/* nav done--------------------- */
+
+.hero{
+    min-height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-image: url("Images/background.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.heroleft{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.leftitem{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    color: #f7f7f7;
+}
+/* .leftitem h2{
+
+} */
+.heroleft img {
+    height: 28vh;
+    width: 9vw;
+}
+.heromiddle {
+    height: 100vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    overflow: hidden;
+}
+.middletext {
+    color: #f7f7f7;
+    position: absolute;
+    z-index: 99;
+    top: -6px;
+    left: 0vw;
+}
+.middletext h2{
+    font-size: 5vw;
+    color: #f7f7f7;
+    line-height: 4.4vw;
+    font-weight: 600;
+    font-family: "oswald";
+}
+.middleobj{
+    position: relative;
+    top: 3vw;
+}
+.middleobj p {
+    color: #f7f7f7;
+    margin-left: 10vw;
+}
+.middleobj img {
+    height: 80vh;
+    width: 49vw;
+}
+.heroright{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3vw;
+}
+.heroright a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+.heroright a span {
+    font-size: 3vw;
+}
+
+/* hero done----------- */
+
+.page2{
+    height: 50vh;
+    width: 100%;
+}
+.page2 h2{
+    display: inline-block;
+    font-size: 2.2vw;
+    text-transform: capitalize;
+    position: relative;
+    left: 3vw;
+    top: 1vw;
+    color: #111;
+
+    
+}
+.page2 p{
+    text-align: right;
+    font-size: 1.5vw;
+    position: relative;
+    right: 3vw;
+    top: 4vw;
+    color: #111;
+}
+
+/* -------page 2 done */
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.pricepage{
+    height: 98%;
+    width: 94%;
+    position: relative;
+}
+.page3heading{
+   height: 10%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 5px;
+}
+.bestdeal h2{
+
+}
+.underline{
+    height: 2px;
+    width: 55px;
+    background-color: crimson;
+}
+.page3body{
+    height: 90%;
+    width: 100%;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pg3bodyleft{
+    height: 96%;
+    width: 30%;
+}
+.pg3bodyleft img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.pg3bodyright{
+    height: 96%;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.product{
+    height: 45%;
+    width: 32%;
+    position: relative;
+}
+.productimage{
+    height: 75%;
+    width: 100%;
+}
+.productimage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.productdetails{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+.productdetails h3{
+    font-size: 19px;
+    font-weight: 500;
+    margin: 1px;
+}
+/* .productdetails p{
+    
+} */
+.shopnow{
+    font-size: 19px;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+/* page 3 done----------- */
+
+.page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    height: 80%;
+    width: 65%;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+.text{
+    height: 80%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.7vw;
+    
+}
+.text h2 {
+    margin-left: 3vw;
+    font-weight: 600;
+    line-height: 25px;
+    color: #111;
+
+}
+.text p {
+    margin-left: 3vw;
+    color: #111;
+}
+
+/* page 4 done----------- */
+
+.lastpage{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lastpage video {
+    position: absolute;
+    width: 100%;
+    scale: 0;
+}
+.future{
+    height: 8vw;
+    width: 17vw;
+    background-color: #1388bf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 99;
+    border-radius: 15px;
+    gap: 0.5vw;
+    color: #f7f7f7;
+    transition: 0.5s all ease-in-out;
+}
+.future button{
+    height: 3vw;
+    width: 8vw;
+    border-radius: 10px;
+    border: 1px solid crimson;
+
+}
+.future button:hover{
+    border: 1px solid #1388bf;
+    border-radius: 15px;
+    background-color: #1388bf;
+    transition: 0.5s ease-in-out;
+    color: #f7f7f7;
+
+}
